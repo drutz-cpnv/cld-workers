@@ -1,0 +1,22 @@
+{
+  "name": "cld-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "vite dev",
+    "preview": "vite build --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.7.4",
+    "vite-plugin-singlefile": "^2.0.1"
+  }
+}
